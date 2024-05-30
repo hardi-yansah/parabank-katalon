@@ -6,15 +6,19 @@
    <elementGuidId>f980ba1b-970c-4c6f-a9a2-dc80958a7ed2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='customer.address.state']</value>
+         <key>BASIC</key>
+         <value>//input[@id = 'customer.address.state']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value></value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='customer.address.state']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -24,12 +28,12 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>8b13a339-b5da-4629-9b30-5fe41df53a2b</webElementGuid>
+      <webElementGuid>b9fcc8ac-8e73-4936-bbb2-35c22367d8bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,15 +41,15 @@
       <name>id</name>
       <type>Main</type>
       <value>customer.address.state</value>
-      <webElementGuid>cac1babb-e2de-45fc-b197-4b88d3b2f37c</webElementGuid>
+      <webElementGuid>4b9e0cbc-9c6f-4094-b39e-600be6fe1a8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>customer.address.state</value>
-      <webElementGuid>3df98a39-9aa8-4063-a03a-f334dc716ac3</webElementGuid>
+      <webElementGuid>4977d5e6-2e0e-443a-a220-bababd5e24b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,15 +57,15 @@
       <name>class</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>4ff0a9e7-8321-4738-a8e4-98f8b104e4e7</webElementGuid>
+      <webElementGuid>38da3318-882d-4f65-a2d7-4d2de8bb009a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>9e6ff793-ec72-4186-9c6a-836b4a351cb5</webElementGuid>
+      <webElementGuid>a0369faf-9f94-4571-81b5-419f775b0e12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;customer.address.state&quot;)</value>
-      <webElementGuid>006e65d0-b6cd-465c-acd8-7ec46f40ec07</webElementGuid>
+      <webElementGuid>03578c38-4c64-4775-b692-a8752a1c763c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='customer.address.state']</value>
-      <webElementGuid>06bf6cf1-83f2-4119-9798-f2744701965a</webElementGuid>
+      <webElementGuid>af35dad0-b97b-4ccc-aa01-c6949a264049</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='customerForm']/table/tbody/tr[5]/td[2]/input</value>
-      <webElementGuid>64b6d185-c4da-4340-bbf2-0cd69bda962a</webElementGuid>
+      <webElementGuid>203b5d23-7fb1-48ad-a428-1d1a9a208a92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[5]/td[2]/input</value>
-      <webElementGuid>8e7c95db-1981-4137-a81c-d0eaf0700fb4</webElementGuid>
+      <webElementGuid>1311f6df-6853-4243-a697-8c4e268127d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'customer.address.state' and @name = 'customer.address.state' and @type = 'text']</value>
-      <webElementGuid>83e3822a-cf57-4f8c-b697-4a78ed66ec90</webElementGuid>
+      <webElementGuid>58420cbe-ac26-48a8-8f63-f5bf5b868fc1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

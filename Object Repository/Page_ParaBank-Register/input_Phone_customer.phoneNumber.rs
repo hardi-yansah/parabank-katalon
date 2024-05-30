@@ -6,15 +6,19 @@
    <elementGuidId>be2e7798-628a-4dfe-9271-08c1427fb28b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='customer.phoneNumber']</value>
+         <key>BASIC</key>
+         <value>//input[@id = 'customer.phoneNumber']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value></value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='customer.phoneNumber']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -24,12 +28,12 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>09e89798-d8a1-4fcf-bd71-7aa81eb3c6f5</webElementGuid>
+      <webElementGuid>d1d4a5f5-0754-4dca-ba89-ec4b466673de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,15 +41,15 @@
       <name>id</name>
       <type>Main</type>
       <value>customer.phoneNumber</value>
-      <webElementGuid>c38d1610-4f0c-48c7-9ae2-36117223b396</webElementGuid>
+      <webElementGuid>ae50992e-4595-49e8-860e-36e2b4005bab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>customer.phoneNumber</value>
-      <webElementGuid>642be3a7-2c60-4462-b628-6e00743aaa02</webElementGuid>
+      <webElementGuid>ce491825-8a3e-430d-bf00-51ce9ad94fdd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,15 +57,15 @@
       <name>class</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>0822bc14-7339-46ba-8202-7324c73cd7a9</webElementGuid>
+      <webElementGuid>0307450c-a2d0-4dfe-948d-9ab808dfc878</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>6fe23982-d695-419f-834b-550422bab047</webElementGuid>
+      <webElementGuid>55cacd20-a8ec-42ee-81f4-431bff7f69e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;customer.phoneNumber&quot;)</value>
-      <webElementGuid>23a14cb5-5396-424a-a19a-5ccc14103f9c</webElementGuid>
+      <webElementGuid>36fcea15-9698-4061-bea6-2c65cabe5d65</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='customer.phoneNumber']</value>
-      <webElementGuid>deb0e7d9-aa41-453e-a0f0-d8546c745a02</webElementGuid>
+      <webElementGuid>a9c30391-716b-4c68-bfc1-b900bb6124e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='customerForm']/table/tbody/tr[7]/td[2]/input</value>
-      <webElementGuid>e66a5fb8-dbc2-4392-b05e-353b5767252d</webElementGuid>
+      <webElementGuid>d9a96101-b1ac-467d-8483-3c8f7ca146d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[7]/td[2]/input</value>
-      <webElementGuid>0714b04d-ec8d-4d74-9108-54b4794bd598</webElementGuid>
+      <webElementGuid>7615cbd2-24d2-4704-91f5-cdb16f086380</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'customer.phoneNumber' and @name = 'customer.phoneNumber' and @type = 'text']</value>
-      <webElementGuid>ab69c88a-4a1e-4b18-b071-8e9a028a94f2</webElementGuid>
+      <webElementGuid>7d143442-3fa9-4df8-9587-d4fdd0bc81b4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

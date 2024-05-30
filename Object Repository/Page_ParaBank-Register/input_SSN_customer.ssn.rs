@@ -6,15 +6,19 @@
    <elementGuidId>c61294e2-dc93-486c-9513-93bc2e4fa464</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='customer.ssn']</value>
+         <key>BASIC</key>
+         <value>//input[@id = 'customer.ssn']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value></value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='customer.ssn']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -24,12 +28,12 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>40c4c506-30e5-4c33-8792-1569d77139cc</webElementGuid>
+      <webElementGuid>d6eb3df8-41d9-4785-8d3a-170f77e342e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,15 +41,15 @@
       <name>id</name>
       <type>Main</type>
       <value>customer.ssn</value>
-      <webElementGuid>813d1896-8c28-4f00-8fc3-c096daef4b66</webElementGuid>
+      <webElementGuid>f9d1e03d-5ed0-4d8c-a53c-50b0882b6cfb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>customer.ssn</value>
-      <webElementGuid>7f6f8049-7295-4569-a2b8-73dd1059707f</webElementGuid>
+      <webElementGuid>41cde57d-703f-49e3-98ff-a92979f22e5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,15 +57,15 @@
       <name>class</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>90950394-eda9-43c8-aa97-dc773cd7a407</webElementGuid>
+      <webElementGuid>5c6d47d5-aae1-407a-9a72-6c7e9e7183ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>16a77075-5bd6-486e-adf3-aea577b89862</webElementGuid>
+      <webElementGuid>857fdcb6-81cf-4c7f-b0ee-878a55fb3543</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;customer.ssn&quot;)</value>
-      <webElementGuid>8def502c-a280-4ee6-a2d1-5bc8fcc4ae40</webElementGuid>
+      <webElementGuid>1c8e6a4b-dc59-401c-a16e-3a9276f8d697</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='customer.ssn']</value>
-      <webElementGuid>ea6e9f10-0625-461f-9377-d0f7b709c49f</webElementGuid>
+      <webElementGuid>04ea514c-a435-41cf-9094-9eaa3559df96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='customerForm']/table/tbody/tr[8]/td[2]/input</value>
-      <webElementGuid>d2d32bee-c32c-4be5-9ce7-7c5ac48ace83</webElementGuid>
+      <webElementGuid>3df8c9af-1c67-489f-a4f6-fea3fb2a992a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[8]/td[2]/input</value>
-      <webElementGuid>70997345-55ce-45d1-bee9-baee5668b665</webElementGuid>
+      <webElementGuid>1a687178-7533-4394-9610-0ba2abf1a26b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'customer.ssn' and @name = 'customer.ssn' and @type = 'text']</value>
-      <webElementGuid>98b3eb90-800a-42e0-a08e-302ebc04b7ef</webElementGuid>
+      <webElementGuid>94e39652-2745-4b13-9e8c-d2bd6ae052ce</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

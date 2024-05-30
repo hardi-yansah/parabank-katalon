@@ -6,15 +6,19 @@
    <elementGuidId>8bdfebd5-5e8c-486b-a492-8d980fb40f89</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='loginPanel']/p[2]/a</value>
+         <key>BASIC</key>
+         <value>//a[(text() = 'Register' or . = 'Register')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>p:nth-of-type(2) > a</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='loginPanel']/p[2]/a</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -24,20 +28,20 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>6442e893-a000-4376-8e28-0306eb8b6804</webElementGuid>
+      <webElementGuid>fbcee9c1-1566-4c74-80bf-6cf5cc3e8142</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>register.htm;jsessionid=07D6FF1E280046D8BE3973DFBE71A01F</value>
-      <webElementGuid>a7591841-cc6b-4df0-99b3-b9cc288535d8</webElementGuid>
+      <webElementGuid>7576dfe8-54f3-4070-a619-07d59a723c8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Register</value>
-      <webElementGuid>182651d8-1884-4cb6-99c5-adf39e967177</webElementGuid>
+      <webElementGuid>8525e14f-5f08-48ff-9057-5f2456e8fcae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;loginPanel&quot;)/p[2]/a[1]</value>
-      <webElementGuid>fb2be1ba-810f-4cce-8840-dbd1406c555d</webElementGuid>
+      <webElementGuid>26e3baea-f525-4de0-a62a-250056fbde57</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='loginPanel']/p[2]/a</value>
-      <webElementGuid>6f64832c-b5d9-4bc0-819a-0504ac318023</webElementGuid>
+      <webElementGuid>2ed8e19c-6eb6-4cc4-8ff4-9214f71276fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Register')]</value>
-      <webElementGuid>63568620-867b-4352-9f8d-2bbd1c4c9063</webElementGuid>
+      <webElementGuid>5afe81ad-55ae-405f-9833-30a8805cf92b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot login info?'])[1]/following::a[1]</value>
-      <webElementGuid>3d67d19c-71ad-4ac6-b0a2-d4e406116570</webElementGuid>
+      <webElementGuid>1bebe1b0-f82a-404f-8d1a-276ec36becc8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::a[2]</value>
-      <webElementGuid>f9a882ca-77eb-4aab-bac8-1b9a3176340a</webElementGuid>
+      <webElementGuid>be401fe1-ee80-418d-b19b-a64988b9af16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ATM Services'])[1]/preceding::a[1]</value>
-      <webElementGuid>6f7649d8-3474-4c0d-ac6b-1969ad5e1693</webElementGuid>
+      <webElementGuid>bdfb77d0-15be-4357-9b7f-1173426c68cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Withdraw Funds'])[1]/preceding::a[1]</value>
-      <webElementGuid>e49fe758-7172-407a-8562-13aa0f97311b</webElementGuid>
+      <webElementGuid>0cf8b20c-045c-4614-9891-38f8c819cd2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Register']/parent::*</value>
-      <webElementGuid>f8997cd3-75dc-47e0-9f29-b4daf6df3d60</webElementGuid>
+      <webElementGuid>4199bb6f-8424-404c-9e4e-e7edccf37451</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'register.htm;jsessionid=07D6FF1E280046D8BE3973DFBE71A01F')]</value>
-      <webElementGuid>1bf939b2-d51b-4b86-a762-4d4c8351248e</webElementGuid>
+      <webElementGuid>4b3bd0c4-90f1-4f5e-9eeb-2e897d398603</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p[2]/a</value>
-      <webElementGuid>a9d7c84e-a28c-47ab-8b04-be47a0487a5c</webElementGuid>
+      <webElementGuid>afd794f6-8dc3-4a64-b45e-23c170a75a38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +137,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'register.htm;jsessionid=07D6FF1E280046D8BE3973DFBE71A01F' and (text() = 'Register' or . = 'Register')]</value>
-      <webElementGuid>867213ba-7d45-4ac1-9fb6-6c144045bda0</webElementGuid>
+      <webElementGuid>522a4f30-05cf-44cd-924b-92682d04b268</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

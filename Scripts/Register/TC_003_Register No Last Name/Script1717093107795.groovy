@@ -1,14 +1,11 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static utils.FakerUtils.*
-
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
-import internal.GlobalVariable
+import internal.GlobalVariable as GlobalVariable
 
 String firstName = getFirstName()
 
-String lastName = getLastName()
-
+//String lastName = getLastName()
 String addressStreet = getAddressStreet()
 
 String addressCity = getAddressCity()
@@ -29,14 +26,13 @@ WebUI.openBrowser(GlobalVariable.url)
 
 WebUI.maximizeWindow()
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_ParaBank-Welcome/p_Experience the difference'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_ParaBank-Welcome/p_Experience the difference'), 1)
 
 WebUI.click(findTestObject('Object Repository/Page_ParaBank-Welcome/a_Register'))
 
 WebUI.setText(findTestObject('Object Repository/Page_ParaBank-Register/input_First Name_customer.firstName'), firstName)
 
-WebUI.setText(findTestObject('Object Repository/Page_ParaBank-Register/input_Last Name_customer.lastName'), lastName)
-
+//WebUI.setText(findTestObject('Object Repository/Page_ParaBank-Register/input_Last Name_customer.lastName'), lastName)
 WebUI.setText(findTestObject('Object Repository/Page_ParaBank-Register/input_Address_customer.address.street'), addressStreet)
 
 WebUI.setText(findTestObject('Object Repository/Page_ParaBank-Register/input_City_customer.address.city'), addressCity)
@@ -57,9 +53,16 @@ WebUI.setText(findTestObject('Object Repository/Page_ParaBank-Register/input_Con
 
 WebUI.click(findTestObject('Object Repository/Page_ParaBank-Register/input_Confirm_button'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_ParaBank-Customer-Logged-In/h1_Welcome'), 'Welcome ' + usernameAccount)
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_ParaBank-Customer-Logged-In/p_Welcome'), (('Welcome ' + firstName) + 
-    ' ') + lastName)
+/*
+ * WebUI.verifyElementText(findTestObject('Object
+ * Repository/Page_ParaBank-Customer-Logged-In/h1_Welcome'), 'Welcome ' +
+ * usernameAccount)
+ * 
+ * WebUI.verifyElementText(findTestObject('Object
+ * Repository/Page_ParaBank-Customer-Logged-In/p_Welcome'), (('Welcome ' +
+ * firstName) + ' ') + lastName)
+ */
+WebUI.verifyElementText(findTestObject('Object Repository/Page_ParaBank-Register/span_Alert', [('forms') : 'lastName']), 
+    'Last name is required.')
 
 WebUI.closeBrowser()

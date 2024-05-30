@@ -6,15 +6,19 @@
    <elementGuidId>3dc4860a-a124-4578-9f59-3bcac8a4873d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@value='Register']</value>
+         <key>BASIC</key>
+         <value>//input[@type = 'submit' and @value = 'Register']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>td:nth-of-type(2) > input.button</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='Register']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -24,12 +28,12 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>fb74b7bd-3070-428c-b5d4-8036d6f9ae7b</webElementGuid>
+      <webElementGuid>5e241b04-c1a6-443e-be64-0fee59706b9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>813eb43e-020e-4e84-b240-5211353aba7c</webElementGuid>
+      <webElementGuid>51248d2c-f87e-478e-8095-f3ef0a3fc30b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +49,15 @@
       <name>class</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>efd0b970-cfc1-439e-b277-c8eafcf39feb</webElementGuid>
+      <webElementGuid>40eae2cb-48ce-4493-ae86-9b208d85707a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
       <value>Register</value>
-      <webElementGuid>41f461ea-a4d4-4fba-b29f-51c7b0a746f5</webElementGuid>
+      <webElementGuid>3f5efb7f-35ab-4b6f-88eb-48fc440a0556</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;customerForm&quot;)/table[@class=&quot;form2&quot;]/tbody[1]/tr[13]/td[2]/input[@class=&quot;button&quot;]</value>
-      <webElementGuid>b9a8f66b-61e7-4d37-b688-eec5b91fb349</webElementGuid>
+      <webElementGuid>9abcb51b-1292-4c69-868d-0eaf38e2f04e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='Register']</value>
-      <webElementGuid>e73d6379-8dd0-434e-8b41-dc45eb3d6428</webElementGuid>
+      <webElementGuid>198b6c35-5ff3-4813-9fc2-30ffa26a6930</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='customerForm']/table/tbody/tr[13]/td[2]/input</value>
-      <webElementGuid>2d88596f-84ab-4aca-8a04-60d85b6ba2de</webElementGuid>
+      <webElementGuid>69a0ba8d-9942-4368-8efb-a3e13009fd81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[13]/td[2]/input</value>
-      <webElementGuid>d2d69cc9-5289-4199-a97e-508c4c2486e0</webElementGuid>
+      <webElementGuid>afa72863-ed27-4e91-800d-b5e765789273</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'submit']</value>
-      <webElementGuid>0e5047d5-2f0b-4b1c-9be9-e8c5bad73ab7</webElementGuid>
+      <webElementGuid>fdc6e92b-b8c5-4797-8203-e7fb33a55653</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
