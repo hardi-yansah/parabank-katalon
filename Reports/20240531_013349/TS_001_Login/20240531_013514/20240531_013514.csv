@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_001_Login,Chrome 125.0.0.0,,,31-05-2024 01:35:21,31-05-2024 01:35:39,18.668s,PASSED
+,,,,,,,
+Test Cases/Register/TC_001_Register New User,Chrome 125.0.0.0,,,31-05-2024 01:35:21,31-05-2024 01:35:39,18.454s,PASSED
+firstName = FakerUtils.getFirstName(),Chrome 125.0.0.0,,,31-05-2024 01:35:21,31-05-2024 01:35:21,0.202s,PASSED
+lastName = FakerUtils.getLastName(),Chrome 125.0.0.0,,,31-05-2024 01:35:21,31-05-2024 01:35:21,0.005s,PASSED
+addressStreet = FakerUtils.getAddressStreet(),Chrome 125.0.0.0,,,31-05-2024 01:35:21,31-05-2024 01:35:21,0.035s,PASSED
+addressCity = FakerUtils.getAddressCity(),Chrome 125.0.0.0,,,31-05-2024 01:35:22,31-05-2024 01:35:22,0.004s,PASSED
+addressState = FakerUtils.getAddressState(),Chrome 125.0.0.0,,,31-05-2024 01:35:22,31-05-2024 01:35:22,0.003s,PASSED
+addressZip = FakerUtils.getAddressZipCode(),Chrome 125.0.0.0,,,31-05-2024 01:35:22,31-05-2024 01:35:22,0.004s,PASSED
+phoneNumber = FakerUtils.getPhone(),Chrome 125.0.0.0,,,31-05-2024 01:35:22,31-05-2024 01:35:22,0.019s,PASSED
+ssnValid = FakerUtils.getSSNValid(),Chrome 125.0.0.0,,,31-05-2024 01:35:22,31-05-2024 01:35:22,0.025s,PASSED
+usernameAccount = FakerUtils.getUsername(),Chrome 125.0.0.0,,,31-05-2024 01:35:22,31-05-2024 01:35:22,0.011s,PASSED
+passwordAccount = FakerUtils.getPassword(),Chrome 125.0.0.0,,,31-05-2024 01:35:22,31-05-2024 01:35:22,0.016s,PASSED
+openBrowser(url),Chrome 125.0.0.0,,,31-05-2024 01:35:22,31-05-2024 01:35:28,6.337s,PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,31-05-2024 01:35:28,31-05-2024 01:35:28,0.077s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_ParaBank-Welcome/p_Experience the difference""), 1)",Chrome 125.0.0.0,,,31-05-2024 01:35:28,31-05-2024 01:35:28,0.378s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank-Welcome/a_Register""))",Chrome 125.0.0.0,,,31-05-2024 01:35:28,31-05-2024 01:35:30,1.374s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank-Register/input_First Name_customer.firstName""), firstName)",Chrome 125.0.0.0,,,31-05-2024 01:35:30,31-05-2024 01:35:30,0.656s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank-Register/input_Last Name_customer.lastName""), lastName)",Chrome 125.0.0.0,,,31-05-2024 01:35:30,31-05-2024 01:35:31,0.626s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank-Register/input_Address_customer.address.street""), addressStreet)",Chrome 125.0.0.0,,,31-05-2024 01:35:31,31-05-2024 01:35:32,0.671s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank-Register/input_City_customer.address.city""), addressCity)",Chrome 125.0.0.0,,,31-05-2024 01:35:32,31-05-2024 01:35:32,0.623s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank-Register/input_State_customer.address.state""), addressState)",Chrome 125.0.0.0,,,31-05-2024 01:35:32,31-05-2024 01:35:33,0.606s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank-Register/input_Zip Code_customer.address.zipCode""), addressZip)",Chrome 125.0.0.0,,,31-05-2024 01:35:33,31-05-2024 01:35:34,0.637s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank-Register/input_Phone_customer.phoneNumber""), phoneNumber)",Chrome 125.0.0.0,,,31-05-2024 01:35:34,31-05-2024 01:35:34,0.674s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank-Register/input_SSN_customer.ssn""), ssnValid)",Chrome 125.0.0.0,,,31-05-2024 01:35:34,31-05-2024 01:35:35,0.626s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank-Register/input_Username_customer.username""), usernameAccount)",Chrome 125.0.0.0,,,31-05-2024 01:35:35,31-05-2024 01:35:35,0.615s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank-Register/input_Password_customer.password""), passwordAccount)",Chrome 125.0.0.0,,,31-05-2024 01:35:35,31-05-2024 01:35:36,0.618s,PASSED
+"setText(findTestObject(""Object Repository/Page_ParaBank-Register/input_Confirm_repeatedPassword""), passwordAccount)",Chrome 125.0.0.0,,,31-05-2024 01:35:36,31-05-2024 01:35:37,0.631s,PASSED
+"click(findTestObject(""Object Repository/Page_ParaBank-Register/input_Confirm_button""))",Chrome 125.0.0.0,,,31-05-2024 01:35:37,31-05-2024 01:35:38,0.867s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank-Customer-Logged-In/h1_Welcome""), ""Welcome "" + usernameAccount)",Chrome 125.0.0.0,,,31-05-2024 01:35:38,31-05-2024 01:35:38,0.310s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_ParaBank-Customer-Logged-In/p_Welcome""), ""Welcome "" + firstName + "" "" + lastName)",Chrome 125.0.0.0,,,31-05-2024 01:35:38,31-05-2024 01:35:38,0.284s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,31-05-2024 01:35:38,31-05-2024 01:35:39,1.144s,PASSED

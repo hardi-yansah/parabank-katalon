@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_001_Login" time="18.668" tests="1" failures="0" errors="0">
+   <testsuite name="TS_001_Login" tests="1" failures="0" errors="0" time="18.668" skipped="0" timestamp="31-05-2024T01:35:21" hostname="MIFX-Hardi - MIFX-IT-HARDI" id="Test Suites/TS_001_Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\MIFX-Hardi\\projects\\2024\\personal\\katalon\\parabank-katalon\\Reports\\20240531_013349\\TS_001_Login\\20240531_013514"/>
+         <property name="logFiles" value="C:\\Users\\MIFX-Hardi\\projects\\2024\\personal\\katalon\\parabank-katalon\\Reports\\20240531_013349\\TS_001_Login\\20240531_013514\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="MIFX-Hardi - MIFX-IT-HARDI"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.104"/>
+         <property name="sessionId" value="cebf9e070bc1ff17d1aa8dd1fcb8f7a9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Register/TC_001_Register New User" time="18.454" classname="Test Cases/Register/TC_001_Register New User" status="PASSED">
+         <system-out><![CDATA[31-05-2024T01:35:21 - [TEST_CASE][PASSED] - Test Cases/Register/TC_001_Register New User: Test Cases/Register/TC_001_Register New User
+
+31-05-2024T01:35:21 - [TEST_STEP][PASSED] - firstName = FakerUtils.getFirstName(): null
+
+31-05-2024T01:35:21 - [TEST_STEP][PASSED] - lastName = FakerUtils.getLastName(): null
+
+31-05-2024T01:35:21 - [TEST_STEP][PASSED] - addressStreet = FakerUtils.getAddressStreet(): null
+
+31-05-2024T01:35:22 - [TEST_STEP][PASSED] - addressCity = FakerUtils.getAddressCity(): null
+
+31-05-2024T01:35:22 - [TEST_STEP][PASSED] - addressState = FakerUtils.getAddressState(): null
+
+31-05-2024T01:35:22 - [TEST_STEP][PASSED] - addressZip = FakerUtils.getAddressZipCode(): null
+
+31-05-2024T01:35:22 - [TEST_STEP][PASSED] - phoneNumber = FakerUtils.getPhone(): null
+
+31-05-2024T01:35:22 - [TEST_STEP][PASSED] - ssnValid = FakerUtils.getSSNValid(): null
+
+31-05-2024T01:35:22 - [TEST_STEP][PASSED] - usernameAccount = FakerUtils.getUsername(): null
+
+31-05-2024T01:35:22 - [TEST_STEP][PASSED] - passwordAccount = FakerUtils.getPassword(): null
+
+31-05-2024T01:35:22 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+31-05-2024T01:35:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-05-2024T01:35:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-05-2024T01:35:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+31-05-2024T01:35:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+31-05-2024T01:35:28 - [MESSAGE][PASSED] - Current window maximized
+
+31-05-2024T01:35:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_ParaBank-Welcome/p_Experience the difference"), 1): Object 'Object Repository/Page_ParaBank-Welcome/p_Experience the difference' is present
+
+31-05-2024T01:35:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ParaBank-Welcome/p_Experience the difference' is present
+
+31-05-2024T01:35:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank-Welcome/a_Register")): Object: 'Object Repository/Page_ParaBank-Welcome/a_Register' is clicked on
+
+31-05-2024T01:35:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank-Welcome/a_Register' is clicked on
+
+31-05-2024T01:35:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_First Name_customer.firstName"), firstName): Text 'Willena' is set on object 'Object Repository/Page_ParaBank-Register/input_First Name_customer.firstName'
+
+31-05-2024T01:35:30 - [MESSAGE][PASSED] - Text 'Willena' is set on object 'Object Repository/Page_ParaBank-Register/input_First Name_customer.firstName'
+
+31-05-2024T01:35:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Last Name_customer.lastName"), lastName): Text 'Wilderman' is set on object 'Object Repository/Page_ParaBank-Register/input_Last Name_customer.lastName'
+
+31-05-2024T01:35:31 - [MESSAGE][PASSED] - Text 'Wilderman' is set on object 'Object Repository/Page_ParaBank-Register/input_Last Name_customer.lastName'
+
+31-05-2024T01:35:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Address_customer.address.street"), addressStreet): Text '46612 Windler Green' is set on object 'Object Repository/Page_ParaBank-Register/input_Address_customer.address.street'
+
+31-05-2024T01:35:32 - [MESSAGE][PASSED] - Text '46612 Windler Green' is set on object 'Object Repository/Page_ParaBank-Register/input_Address_customer.address.street'
+
+31-05-2024T01:35:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_City_customer.address.city"), addressCity): Text 'Littelfurt' is set on object 'Object Repository/Page_ParaBank-Register/input_City_customer.address.city'
+
+31-05-2024T01:35:32 - [MESSAGE][PASSED] - Text 'Littelfurt' is set on object 'Object Repository/Page_ParaBank-Register/input_City_customer.address.city'
+
+31-05-2024T01:35:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_State_customer.address.state"), addressState): Text 'South Carolina' is set on object 'Object Repository/Page_ParaBank-Register/input_State_customer.address.state'
+
+31-05-2024T01:35:33 - [MESSAGE][PASSED] - Text 'South Carolina' is set on object 'Object Repository/Page_ParaBank-Register/input_State_customer.address.state'
+
+31-05-2024T01:35:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Zip Code_customer.address.zipCode"), addressZip): Text '93958-8308' is set on object 'Object Repository/Page_ParaBank-Register/input_Zip Code_customer.address.zipCode'
+
+31-05-2024T01:35:34 - [MESSAGE][PASSED] - Text '93958-8308' is set on object 'Object Repository/Page_ParaBank-Register/input_Zip Code_customer.address.zipCode'
+
+31-05-2024T01:35:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Phone_customer.phoneNumber"), phoneNumber): Text '406-253-0612 x81289' is set on object 'Object Repository/Page_ParaBank-Register/input_Phone_customer.phoneNumber'
+
+31-05-2024T01:35:34 - [MESSAGE][PASSED] - Text '406-253-0612 x81289' is set on object 'Object Repository/Page_ParaBank-Register/input_Phone_customer.phoneNumber'
+
+31-05-2024T01:35:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_SSN_customer.ssn"), ssnValid): Text '281-80-1247' is set on object 'Object Repository/Page_ParaBank-Register/input_SSN_customer.ssn'
+
+31-05-2024T01:35:35 - [MESSAGE][PASSED] - Text '281-80-1247' is set on object 'Object Repository/Page_ParaBank-Register/input_SSN_customer.ssn'
+
+31-05-2024T01:35:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Username_customer.username"), usernameAccount): Text 'adina.schinner' is set on object 'Object Repository/Page_ParaBank-Register/input_Username_customer.username'
+
+31-05-2024T01:35:35 - [MESSAGE][PASSED] - Text 'adina.schinner' is set on object 'Object Repository/Page_ParaBank-Register/input_Username_customer.username'
+
+31-05-2024T01:35:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Password_customer.password"), passwordAccount): Text 'gtlzdsevq' is set on object 'Object Repository/Page_ParaBank-Register/input_Password_customer.password'
+
+31-05-2024T01:35:36 - [MESSAGE][PASSED] - Text 'gtlzdsevq' is set on object 'Object Repository/Page_ParaBank-Register/input_Password_customer.password'
+
+31-05-2024T01:35:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Confirm_repeatedPassword"), passwordAccount): Text 'gtlzdsevq' is set on object 'Object Repository/Page_ParaBank-Register/input_Confirm_repeatedPassword'
+
+31-05-2024T01:35:37 - [MESSAGE][PASSED] - Text 'gtlzdsevq' is set on object 'Object Repository/Page_ParaBank-Register/input_Confirm_repeatedPassword'
+
+31-05-2024T01:35:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank-Register/input_Confirm_button")): Object: 'Object Repository/Page_ParaBank-Register/input_Confirm_button' is clicked on
+
+31-05-2024T01:35:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank-Register/input_Confirm_button' is clicked on
+
+31-05-2024T01:35:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_ParaBank-Customer-Logged-In/h1_Welcome"), "Welcome " + usernameAccount): Actual text and expected text of test object 'Object Repository/Page_ParaBank-Customer-Logged-In/h1_Welcome' are matched.
+
+31-05-2024T01:35:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ParaBank-Customer-Logged-In/h1_Welcome' are matched.
+
+31-05-2024T01:35:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_ParaBank-Customer-Logged-In/p_Welcome"), "Welcome " + firstName + " " + lastName): Actual text and expected text of test object 'Object Repository/Page_ParaBank-Customer-Logged-In/p_Welcome' are matched.
+
+31-05-2024T01:35:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ParaBank-Customer-Logged-In/p_Welcome' are matched.
+
+31-05-2024T01:35:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-05-2024T01:35:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[31-05-2024T01:35:21 - [TEST_SUITE][PASSED] - TS_001_Login: Test Cases/Register/TC_001_Register New User]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
