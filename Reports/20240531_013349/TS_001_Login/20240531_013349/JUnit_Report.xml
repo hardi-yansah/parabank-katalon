@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_001_Login" time="57.505" tests="4" failures="1" errors="0">
+   <testsuite name="TS_001_Login" tests="4" failures="1" errors="0" time="57.505" skipped="0" timestamp="31-05-2024T01:33:55" hostname="MIFX-Hardi - MIFX-IT-HARDI" id="Test Suites/TS_001_Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\MIFX-Hardi\\projects\\2024\\personal\\katalon\\parabank-katalon\\Reports\\20240531_013349\\TS_001_Login\\20240531_013349"/>
+         <property name="logFiles" value="C:\\Users\\MIFX-Hardi\\projects\\2024\\personal\\katalon\\parabank-katalon\\Reports\\20240531_013349\\TS_001_Login\\20240531_013349\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\MIFX-Hardi\\projects\\2024\\personal\\katalon\\parabank-katalon\\Reports\\20240531_013349\\TS_001_Login\\20240531_013349\\1717094052448.png, C:\\Users\\MIFX-Hardi\\projects\\2024\\personal\\katalon\\parabank-katalon\\Reports\\20240531_013349\\TS_001_Login\\20240531_013349\\1717094052650.png"/>
+         <property name="hostName" value="MIFX-Hardi - MIFX-IT-HARDI"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.104"/>
+         <property name="sessionId" value="3cff7d97e2a762ce22a768bfbb6b9824"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Register/TC_001_Register New User" time="16.771" classname="Test Cases/Register/TC_001_Register New User" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Register/TC_001_Register New User FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_ParaBank-Customer-Logged-In/h1_Welcome' FAILED.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)&#xa;	at TC_001_Register New User.run(TC_001_Register New User:58)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1717094029280.run(TempTestSuite1717094029280.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Signing up is easy!' and expected text 'Welcome denis.turcotte' of test object 'Object Repository/Page_ParaBank-Customer-Logged-In/h1_Welcome' are NOT matched.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[31-05-2024T01:33:56 - [TEST_CASE][FAILED] - Test Cases/Register/TC_001_Register New User: Test Cases/Register/TC_001_Register New User FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_ParaBank-Customer-Logged-In/h1_Welcome' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at TC_001_Register New User.run(TC_001_Register New User:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1717094029280.run(TempTestSuite1717094029280.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Signing up is easy!' and expected text 'Welcome denis.turcotte' of test object 'Object Repository/Page_ParaBank-Customer-Logged-In/h1_Welcome' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+31-05-2024T01:33:56 - [TEST_STEP][PASSED] - firstName = FakerUtils.getFirstName(): null
+
+31-05-2024T01:33:56 - [TEST_STEP][PASSED] - lastName = FakerUtils.getLastName(): null
+
+31-05-2024T01:33:56 - [TEST_STEP][PASSED] - addressStreet = FakerUtils.getAddressStreet(): null
+
+31-05-2024T01:33:56 - [TEST_STEP][PASSED] - addressCity = FakerUtils.getAddressCity(): null
+
+31-05-2024T01:33:56 - [TEST_STEP][PASSED] - addressState = FakerUtils.getAddressState(): null
+
+31-05-2024T01:33:56 - [TEST_STEP][PASSED] - addressZip = FakerUtils.getAddressZipCode(): null
+
+31-05-2024T01:33:56 - [TEST_STEP][PASSED] - phoneNumber = FakerUtils.getPhone(): null
+
+31-05-2024T01:33:56 - [TEST_STEP][PASSED] - ssnValid = FakerUtils.getSSNValid(): null
+
+31-05-2024T01:33:56 - [TEST_STEP][PASSED] - usernameAccount = FakerUtils.getUsername(): null
+
+31-05-2024T01:33:56 - [TEST_STEP][PASSED] - passwordAccount = FakerUtils.getPassword(): null
+
+31-05-2024T01:33:56 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+31-05-2024T01:33:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-05-2024T01:33:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-05-2024T01:34:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+31-05-2024T01:34:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+31-05-2024T01:34:02 - [MESSAGE][PASSED] - Current window maximized
+
+31-05-2024T01:34:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_ParaBank-Welcome/p_Experience the difference"), 1): Object 'Object Repository/Page_ParaBank-Welcome/p_Experience the difference' is present
+
+31-05-2024T01:34:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ParaBank-Welcome/p_Experience the difference' is present
+
+31-05-2024T01:34:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank-Welcome/a_Register")): Object: 'Object Repository/Page_ParaBank-Welcome/a_Register' is clicked on
+
+31-05-2024T01:34:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank-Welcome/a_Register' is clicked on
+
+31-05-2024T01:34:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_First Name_customer.firstName"), firstName): Text 'Troy' is set on object 'Object Repository/Page_ParaBank-Register/input_First Name_customer.firstName'
+
+31-05-2024T01:34:04 - [MESSAGE][PASSED] - Text 'Troy' is set on object 'Object Repository/Page_ParaBank-Register/input_First Name_customer.firstName'
+
+31-05-2024T01:34:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Last Name_customer.lastName"), lastName): Text 'Tillman' is set on object 'Object Repository/Page_ParaBank-Register/input_Last Name_customer.lastName'
+
+31-05-2024T01:34:05 - [MESSAGE][PASSED] - Text 'Tillman' is set on object 'Object Repository/Page_ParaBank-Register/input_Last Name_customer.lastName'
+
+31-05-2024T01:34:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Address_customer.address.street"), addressStreet): Text '77906 Garrett Turnpike' is set on object 'Object Repository/Page_ParaBank-Register/input_Address_customer.address.street'
+
+31-05-2024T01:34:06 - [MESSAGE][PASSED] - Text '77906 Garrett Turnpike' is set on object 'Object Repository/Page_ParaBank-Register/input_Address_customer.address.street'
+
+31-05-2024T01:34:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_City_customer.address.city"), addressCity): Text 'Lake Lyman' is set on object 'Object Repository/Page_ParaBank-Register/input_City_customer.address.city'
+
+31-05-2024T01:34:06 - [MESSAGE][PASSED] - Text 'Lake Lyman' is set on object 'Object Repository/Page_ParaBank-Register/input_City_customer.address.city'
+
+31-05-2024T01:34:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_State_customer.address.state"), addressState): Text 'California' is set on object 'Object Repository/Page_ParaBank-Register/input_State_customer.address.state'
+
+31-05-2024T01:34:07 - [MESSAGE][PASSED] - Text 'California' is set on object 'Object Repository/Page_ParaBank-Register/input_State_customer.address.state'
+
+31-05-2024T01:34:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Zip Code_customer.address.zipCode"), addressZip): Text '93966-7014' is set on object 'Object Repository/Page_ParaBank-Register/input_Zip Code_customer.address.zipCode'
+
+31-05-2024T01:34:07 - [MESSAGE][PASSED] - Text '93966-7014' is set on object 'Object Repository/Page_ParaBank-Register/input_Zip Code_customer.address.zipCode'
+
+31-05-2024T01:34:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Phone_customer.phoneNumber"), phoneNumber): Text '1-031-676-4453 x45805' is set on object 'Object Repository/Page_ParaBank-Register/input_Phone_customer.phoneNumber'
+
+31-05-2024T01:34:08 - [MESSAGE][PASSED] - Text '1-031-676-4453 x45805' is set on object 'Object Repository/Page_ParaBank-Register/input_Phone_customer.phoneNumber'
+
+31-05-2024T01:34:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_SSN_customer.ssn"), ssnValid): Text '605-84-2821' is set on object 'Object Repository/Page_ParaBank-Register/input_SSN_customer.ssn'
+
+31-05-2024T01:34:09 - [MESSAGE][PASSED] - Text '605-84-2821' is set on object 'Object Repository/Page_ParaBank-Register/input_SSN_customer.ssn'
+
+31-05-2024T01:34:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Username_customer.username"), usernameAccount): Text 'denis.turcotte' is set on object 'Object Repository/Page_ParaBank-Register/input_Username_customer.username'
+
+31-05-2024T01:34:09 - [MESSAGE][PASSED] - Text 'denis.turcotte' is set on object 'Object Repository/Page_ParaBank-Register/input_Username_customer.username'
+
+31-05-2024T01:34:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Password_customer.password"), passwordAccount): Text '38kbojd3cdcf' is set on object 'Object Repository/Page_ParaBank-Register/input_Password_customer.password'
+
+31-05-2024T01:34:10 - [MESSAGE][PASSED] - Text '38kbojd3cdcf' is set on object 'Object Repository/Page_ParaBank-Register/input_Password_customer.password'
+
+31-05-2024T01:34:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Confirm_repeatedPassword"), passwordAccount): Text '38kbojd3cdcf' is set on object 'Object Repository/Page_ParaBank-Register/input_Confirm_repeatedPassword'
+
+31-05-2024T01:34:11 - [MESSAGE][PASSED] - Text '38kbojd3cdcf' is set on object 'Object Repository/Page_ParaBank-Register/input_Confirm_repeatedPassword'
+
+31-05-2024T01:34:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank-Register/input_Confirm_button")): Object: 'Object Repository/Page_ParaBank-Register/input_Confirm_button' is clicked on
+
+31-05-2024T01:34:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank-Register/input_Confirm_button' is clicked on
+
+31-05-2024T01:34:12 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/Page_ParaBank-Customer-Logged-In/h1_Welcome"), "Welcome " + usernameAccount): Verify element text of test object 'Object Repository/Page_ParaBank-Customer-Logged-In/h1_Welcome' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_ParaBank-Customer-Logged-In/h1_Welcome' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at TC_001_Register New User.run(TC_001_Register New User:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1717094029280.run(TempTestSuite1717094029280.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Signing up is easy!' and expected text 'Welcome denis.turcotte' of test object 'Object Repository/Page_ParaBank-Customer-Logged-In/h1_Welcome' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+31-05-2024T01:34:12 - [MESSAGE][FAILED] - Actual text 'Signing up is easy!' and expected text 'Welcome denis.turcotte' of test object 'Object Repository/Page_ParaBank-Customer-Logged-In/h1_Welcome' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Signing up is easy!' and expected text 'Welcome denis.turcotte' of test object 'Object Repository/Page_ParaBank-Customer-Logged-In/h1_Welcome' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at TC_001_Register New User.run(TC_001_Register New User:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1717094029280.run(TempTestSuite1717094029280.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\MIFX-Hardi\\projects\\2024\\personal\\katalon\\parabank-katalon\\Reports\\20240531_013349\\TS_001_Login\\20240531_013349\\1717094052448.png]]
+
+31-05-2024T01:34:12 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Page_ParaBank-Customer-Logged-In/h1_Welcome' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_ParaBank-Customer-Logged-In/h1_Welcome' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at TC_001_Register New User.run(TC_001_Register New User:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1717094029280.run(TempTestSuite1717094029280.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Signing up is easy!' and expected text 'Welcome denis.turcotte' of test object 'Object Repository/Page_ParaBank-Customer-Logged-In/h1_Welcome' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+[[ATTACHMENT|C:\\Users\\MIFX-Hardi\\projects\\2024\\personal\\katalon\\parabank-katalon\\Reports\\20240531_013349\\TS_001_Login\\20240531_013349\\1717094052650.png]]]]></system-out>
+         <system-err><![CDATA[31-05-2024T01:33:56 - [TEST_CASE][FAILED] - Test Cases/Register/TC_001_Register New User: Test Cases/Register/TC_001_Register New User FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_ParaBank-Customer-Logged-In/h1_Welcome' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at TC_001_Register New User.run(TC_001_Register New User:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1717094029280.run(TempTestSuite1717094029280.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Signing up is easy!' and expected text 'Welcome denis.turcotte' of test object 'Object Repository/Page_ParaBank-Customer-Logged-In/h1_Welcome' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/TC_002_Register No First Name" time="14.086" classname="Test Cases/Register/TC_002_Register No First Name" status="PASSED">
+         <system-out><![CDATA[31-05-2024T01:34:12 - [TEST_CASE][PASSED] - Test Cases/Register/TC_002_Register No First Name: Test Cases/Register/TC_002_Register No First Name
+
+31-05-2024T01:34:12 - [TEST_STEP][PASSED] - lastName = FakerUtils.getLastName(): null
+
+31-05-2024T01:34:12 - [TEST_STEP][PASSED] - addressStreet = FakerUtils.getAddressStreet(): null
+
+31-05-2024T01:34:12 - [TEST_STEP][PASSED] - addressCity = FakerUtils.getAddressCity(): null
+
+31-05-2024T01:34:12 - [TEST_STEP][PASSED] - addressState = FakerUtils.getAddressState(): null
+
+31-05-2024T01:34:13 - [TEST_STEP][PASSED] - addressZip = FakerUtils.getAddressZipCode(): null
+
+31-05-2024T01:34:13 - [TEST_STEP][PASSED] - phoneNumber = FakerUtils.getPhone(): null
+
+31-05-2024T01:34:13 - [TEST_STEP][PASSED] - ssnValid = FakerUtils.getSSNValid(): null
+
+31-05-2024T01:34:13 - [TEST_STEP][PASSED] - usernameAccount = FakerUtils.getUsername(): null
+
+31-05-2024T01:34:13 - [TEST_STEP][PASSED] - passwordAccount = FakerUtils.getPassword(): null
+
+31-05-2024T01:34:13 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+31-05-2024T01:34:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+31-05-2024T01:34:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-05-2024T01:34:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-05-2024T01:34:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+31-05-2024T01:34:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+31-05-2024T01:34:18 - [MESSAGE][PASSED] - Current window maximized
+
+31-05-2024T01:34:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_ParaBank-Welcome/p_Experience the difference"), 1): Object 'Object Repository/Page_ParaBank-Welcome/p_Experience the difference' is present
+
+31-05-2024T01:34:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ParaBank-Welcome/p_Experience the difference' is present
+
+31-05-2024T01:34:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank-Welcome/a_Register")): Object: 'Object Repository/Page_ParaBank-Welcome/a_Register' is clicked on
+
+31-05-2024T01:34:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank-Welcome/a_Register' is clicked on
+
+31-05-2024T01:34:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Last Name_customer.lastName"), lastName): Text 'Terry' is set on object 'Object Repository/Page_ParaBank-Register/input_Last Name_customer.lastName'
+
+31-05-2024T01:34:20 - [MESSAGE][PASSED] - Text 'Terry' is set on object 'Object Repository/Page_ParaBank-Register/input_Last Name_customer.lastName'
+
+31-05-2024T01:34:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Address_customer.address.street"), addressStreet): Text '87795 Douglas Manor' is set on object 'Object Repository/Page_ParaBank-Register/input_Address_customer.address.street'
+
+31-05-2024T01:34:20 - [MESSAGE][PASSED] - Text '87795 Douglas Manor' is set on object 'Object Repository/Page_ParaBank-Register/input_Address_customer.address.street'
+
+31-05-2024T01:34:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_City_customer.address.city"), addressCity): Text 'Cassinland' is set on object 'Object Repository/Page_ParaBank-Register/input_City_customer.address.city'
+
+31-05-2024T01:34:21 - [MESSAGE][PASSED] - Text 'Cassinland' is set on object 'Object Repository/Page_ParaBank-Register/input_City_customer.address.city'
+
+31-05-2024T01:34:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_State_customer.address.state"), addressState): Text 'Arizona' is set on object 'Object Repository/Page_ParaBank-Register/input_State_customer.address.state'
+
+31-05-2024T01:34:21 - [MESSAGE][PASSED] - Text 'Arizona' is set on object 'Object Repository/Page_ParaBank-Register/input_State_customer.address.state'
+
+31-05-2024T01:34:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Zip Code_customer.address.zipCode"), addressZip): Text '02505' is set on object 'Object Repository/Page_ParaBank-Register/input_Zip Code_customer.address.zipCode'
+
+31-05-2024T01:34:22 - [MESSAGE][PASSED] - Text '02505' is set on object 'Object Repository/Page_ParaBank-Register/input_Zip Code_customer.address.zipCode'
+
+31-05-2024T01:34:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Phone_customer.phoneNumber"), phoneNumber): Text '1-906-273-6646 x26044' is set on object 'Object Repository/Page_ParaBank-Register/input_Phone_customer.phoneNumber'
+
+31-05-2024T01:34:23 - [MESSAGE][PASSED] - Text '1-906-273-6646 x26044' is set on object 'Object Repository/Page_ParaBank-Register/input_Phone_customer.phoneNumber'
+
+31-05-2024T01:34:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_SSN_customer.ssn"), ssnValid): Text '912-71-4130' is set on object 'Object Repository/Page_ParaBank-Register/input_SSN_customer.ssn'
+
+31-05-2024T01:34:23 - [MESSAGE][PASSED] - Text '912-71-4130' is set on object 'Object Repository/Page_ParaBank-Register/input_SSN_customer.ssn'
+
+31-05-2024T01:34:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Username_customer.username"), usernameAccount): Text 'joellen.dickinson' is set on object 'Object Repository/Page_ParaBank-Register/input_Username_customer.username'
+
+31-05-2024T01:34:24 - [MESSAGE][PASSED] - Text 'joellen.dickinson' is set on object 'Object Repository/Page_ParaBank-Register/input_Username_customer.username'
+
+31-05-2024T01:34:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Password_customer.password"), passwordAccount): Text 'oeg218ddbp16lm' is set on object 'Object Repository/Page_ParaBank-Register/input_Password_customer.password'
+
+31-05-2024T01:34:25 - [MESSAGE][PASSED] - Text 'oeg218ddbp16lm' is set on object 'Object Repository/Page_ParaBank-Register/input_Password_customer.password'
+
+31-05-2024T01:34:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Confirm_repeatedPassword"), passwordAccount): Text 'oeg218ddbp16lm' is set on object 'Object Repository/Page_ParaBank-Register/input_Confirm_repeatedPassword'
+
+31-05-2024T01:34:25 - [MESSAGE][PASSED] - Text 'oeg218ddbp16lm' is set on object 'Object Repository/Page_ParaBank-Register/input_Confirm_repeatedPassword'
+
+31-05-2024T01:34:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank-Register/input_Confirm_button")): Object: 'Object Repository/Page_ParaBank-Register/input_Confirm_button' is clicked on
+
+31-05-2024T01:34:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank-Register/input_Confirm_button' is clicked on
+
+31-05-2024T01:34:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_ParaBank-Register/span_Alert", ["forms":"firstName"]), "First name is required."): Actual text and expected text of test object 'Object Repository/Page_ParaBank-Register/span_Alert' are matched.
+
+31-05-2024T01:34:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ParaBank-Register/span_Alert' are matched.
+
+31-05-2024T01:34:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-05-2024T01:34:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/TC_003_Register No Last Name" time="12.938" classname="Test Cases/Register/TC_003_Register No Last Name" status="PASSED">
+         <system-out><![CDATA[31-05-2024T01:34:26 - [TEST_CASE][PASSED] - Test Cases/Register/TC_003_Register No Last Name: Test Cases/Register/TC_003_Register No Last Name
+
+31-05-2024T01:34:27 - [TEST_STEP][PASSED] - firstName = FakerUtils.getFirstName(): null
+
+31-05-2024T01:34:27 - [TEST_STEP][PASSED] - addressStreet = FakerUtils.getAddressStreet(): null
+
+31-05-2024T01:34:27 - [TEST_STEP][PASSED] - addressCity = FakerUtils.getAddressCity(): null
+
+31-05-2024T01:34:27 - [TEST_STEP][PASSED] - addressState = FakerUtils.getAddressState(): null
+
+31-05-2024T01:34:27 - [TEST_STEP][PASSED] - addressZip = FakerUtils.getAddressZipCode(): null
+
+31-05-2024T01:34:27 - [TEST_STEP][PASSED] - phoneNumber = FakerUtils.getPhone(): null
+
+31-05-2024T01:34:27 - [TEST_STEP][PASSED] - ssnValid = FakerUtils.getSSNValid(): null
+
+31-05-2024T01:34:27 - [TEST_STEP][PASSED] - usernameAccount = FakerUtils.getUsername(): null
+
+31-05-2024T01:34:27 - [TEST_STEP][PASSED] - passwordAccount = FakerUtils.getPassword(): null
+
+31-05-2024T01:34:27 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+31-05-2024T01:34:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-05-2024T01:34:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-05-2024T01:34:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+31-05-2024T01:34:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+31-05-2024T01:34:30 - [MESSAGE][PASSED] - Current window maximized
+
+31-05-2024T01:34:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_ParaBank-Welcome/p_Experience the difference"), 1): Object 'Object Repository/Page_ParaBank-Welcome/p_Experience the difference' is present
+
+31-05-2024T01:34:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ParaBank-Welcome/p_Experience the difference' is present
+
+31-05-2024T01:34:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank-Welcome/a_Register")): Object: 'Object Repository/Page_ParaBank-Welcome/a_Register' is clicked on
+
+31-05-2024T01:34:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank-Welcome/a_Register' is clicked on
+
+31-05-2024T01:34:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_First Name_customer.firstName"), firstName): Text 'Lieselotte' is set on object 'Object Repository/Page_ParaBank-Register/input_First Name_customer.firstName'
+
+31-05-2024T01:34:32 - [MESSAGE][PASSED] - Text 'Lieselotte' is set on object 'Object Repository/Page_ParaBank-Register/input_First Name_customer.firstName'
+
+31-05-2024T01:34:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Address_customer.address.street"), addressStreet): Text '18044 Jakubowski Stream' is set on object 'Object Repository/Page_ParaBank-Register/input_Address_customer.address.street'
+
+31-05-2024T01:34:33 - [MESSAGE][PASSED] - Text '18044 Jakubowski Stream' is set on object 'Object Repository/Page_ParaBank-Register/input_Address_customer.address.street'
+
+31-05-2024T01:34:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_City_customer.address.city"), addressCity): Text 'Port Monty' is set on object 'Object Repository/Page_ParaBank-Register/input_City_customer.address.city'
+
+31-05-2024T01:34:34 - [MESSAGE][PASSED] - Text 'Port Monty' is set on object 'Object Repository/Page_ParaBank-Register/input_City_customer.address.city'
+
+31-05-2024T01:34:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_State_customer.address.state"), addressState): Text 'Washington' is set on object 'Object Repository/Page_ParaBank-Register/input_State_customer.address.state'
+
+31-05-2024T01:34:34 - [MESSAGE][PASSED] - Text 'Washington' is set on object 'Object Repository/Page_ParaBank-Register/input_State_customer.address.state'
+
+31-05-2024T01:34:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Zip Code_customer.address.zipCode"), addressZip): Text '83960-8441' is set on object 'Object Repository/Page_ParaBank-Register/input_Zip Code_customer.address.zipCode'
+
+31-05-2024T01:34:35 - [MESSAGE][PASSED] - Text '83960-8441' is set on object 'Object Repository/Page_ParaBank-Register/input_Zip Code_customer.address.zipCode'
+
+31-05-2024T01:34:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Phone_customer.phoneNumber"), phoneNumber): Text '(747) 615-8995 x183' is set on object 'Object Repository/Page_ParaBank-Register/input_Phone_customer.phoneNumber'
+
+31-05-2024T01:34:36 - [MESSAGE][PASSED] - Text '(747) 615-8995 x183' is set on object 'Object Repository/Page_ParaBank-Register/input_Phone_customer.phoneNumber'
+
+31-05-2024T01:34:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_SSN_customer.ssn"), ssnValid): Text '637-83-4408' is set on object 'Object Repository/Page_ParaBank-Register/input_SSN_customer.ssn'
+
+31-05-2024T01:34:36 - [MESSAGE][PASSED] - Text '637-83-4408' is set on object 'Object Repository/Page_ParaBank-Register/input_SSN_customer.ssn'
+
+31-05-2024T01:34:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Username_customer.username"), usernameAccount): Text 'lewis.kemmer' is set on object 'Object Repository/Page_ParaBank-Register/input_Username_customer.username'
+
+31-05-2024T01:34:37 - [MESSAGE][PASSED] - Text 'lewis.kemmer' is set on object 'Object Repository/Page_ParaBank-Register/input_Username_customer.username'
+
+31-05-2024T01:34:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Password_customer.password"), passwordAccount): Text 'bg0zbcuv2kbfl' is set on object 'Object Repository/Page_ParaBank-Register/input_Password_customer.password'
+
+31-05-2024T01:34:37 - [MESSAGE][PASSED] - Text 'bg0zbcuv2kbfl' is set on object 'Object Repository/Page_ParaBank-Register/input_Password_customer.password'
+
+31-05-2024T01:34:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Confirm_repeatedPassword"), passwordAccount): Text 'bg0zbcuv2kbfl' is set on object 'Object Repository/Page_ParaBank-Register/input_Confirm_repeatedPassword'
+
+31-05-2024T01:34:38 - [MESSAGE][PASSED] - Text 'bg0zbcuv2kbfl' is set on object 'Object Repository/Page_ParaBank-Register/input_Confirm_repeatedPassword'
+
+31-05-2024T01:34:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank-Register/input_Confirm_button")): Object: 'Object Repository/Page_ParaBank-Register/input_Confirm_button' is clicked on
+
+31-05-2024T01:34:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank-Register/input_Confirm_button' is clicked on
+
+31-05-2024T01:34:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_ParaBank-Register/span_Alert", ["forms":"lastName"]), "Last name is required."): Actual text and expected text of test object 'Object Repository/Page_ParaBank-Register/span_Alert' are matched.
+
+31-05-2024T01:34:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ParaBank-Register/span_Alert' are matched.
+
+31-05-2024T01:34:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-05-2024T01:34:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/TC_004_Register No Address Street" time="13.516" classname="Test Cases/Register/TC_004_Register No Address Street" status="PASSED">
+         <system-out><![CDATA[31-05-2024T01:34:39 - [TEST_CASE][PASSED] - Test Cases/Register/TC_004_Register No Address Street: Test Cases/Register/TC_004_Register No Address Street
+
+31-05-2024T01:34:40 - [TEST_STEP][PASSED] - firstName = FakerUtils.getFirstName(): null
+
+31-05-2024T01:34:40 - [TEST_STEP][PASSED] - lastName = FakerUtils.getLastName(): null
+
+31-05-2024T01:34:40 - [TEST_STEP][PASSED] - addressCity = FakerUtils.getAddressCity(): null
+
+31-05-2024T01:34:40 - [TEST_STEP][PASSED] - addressState = FakerUtils.getAddressState(): null
+
+31-05-2024T01:34:40 - [TEST_STEP][PASSED] - addressZip = FakerUtils.getAddressZipCode(): null
+
+31-05-2024T01:34:40 - [TEST_STEP][PASSED] - phoneNumber = FakerUtils.getPhone(): null
+
+31-05-2024T01:34:40 - [TEST_STEP][PASSED] - ssnValid = FakerUtils.getSSNValid(): null
+
+31-05-2024T01:34:40 - [TEST_STEP][PASSED] - usernameAccount = FakerUtils.getUsername(): null
+
+31-05-2024T01:34:40 - [TEST_STEP][PASSED] - passwordAccount = FakerUtils.getPassword(): null
+
+31-05-2024T01:34:40 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+31-05-2024T01:34:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-05-2024T01:34:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-05-2024T01:34:44 - [MESSAGE][PASSED] - Browser is opened with url: 'https://parabank.parasoft.com/parabank/index.htm'
+
+31-05-2024T01:34:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+31-05-2024T01:34:44 - [MESSAGE][PASSED] - Current window maximized
+
+31-05-2024T01:34:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_ParaBank-Welcome/p_Experience the difference"), 1): Object 'Object Repository/Page_ParaBank-Welcome/p_Experience the difference' is present
+
+31-05-2024T01:34:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_ParaBank-Welcome/p_Experience the difference' is present
+
+31-05-2024T01:34:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank-Welcome/a_Register")): Object: 'Object Repository/Page_ParaBank-Welcome/a_Register' is clicked on
+
+31-05-2024T01:34:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank-Welcome/a_Register' is clicked on
+
+31-05-2024T01:34:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_First Name_customer.firstName"), firstName): Text 'Sharyl' is set on object 'Object Repository/Page_ParaBank-Register/input_First Name_customer.firstName'
+
+31-05-2024T01:34:46 - [MESSAGE][PASSED] - Text 'Sharyl' is set on object 'Object Repository/Page_ParaBank-Register/input_First Name_customer.firstName'
+
+31-05-2024T01:34:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Last Name_customer.lastName"), lastName): Text 'Langosh' is set on object 'Object Repository/Page_ParaBank-Register/input_Last Name_customer.lastName'
+
+31-05-2024T01:34:47 - [MESSAGE][PASSED] - Text 'Langosh' is set on object 'Object Repository/Page_ParaBank-Register/input_Last Name_customer.lastName'
+
+31-05-2024T01:34:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_City_customer.address.city"), addressCity): Text 'North Melanifort' is set on object 'Object Repository/Page_ParaBank-Register/input_City_customer.address.city'
+
+31-05-2024T01:34:47 - [MESSAGE][PASSED] - Text 'North Melanifort' is set on object 'Object Repository/Page_ParaBank-Register/input_City_customer.address.city'
+
+31-05-2024T01:34:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_State_customer.address.state"), addressState): Text 'Nevada' is set on object 'Object Repository/Page_ParaBank-Register/input_State_customer.address.state'
+
+31-05-2024T01:34:48 - [MESSAGE][PASSED] - Text 'Nevada' is set on object 'Object Repository/Page_ParaBank-Register/input_State_customer.address.state'
+
+31-05-2024T01:34:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Zip Code_customer.address.zipCode"), addressZip): Text '38833-6977' is set on object 'Object Repository/Page_ParaBank-Register/input_Zip Code_customer.address.zipCode'
+
+31-05-2024T01:34:48 - [MESSAGE][PASSED] - Text '38833-6977' is set on object 'Object Repository/Page_ParaBank-Register/input_Zip Code_customer.address.zipCode'
+
+31-05-2024T01:34:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Phone_customer.phoneNumber"), phoneNumber): Text '(467) 332-5720 x5111' is set on object 'Object Repository/Page_ParaBank-Register/input_Phone_customer.phoneNumber'
+
+31-05-2024T01:34:49 - [MESSAGE][PASSED] - Text '(467) 332-5720 x5111' is set on object 'Object Repository/Page_ParaBank-Register/input_Phone_customer.phoneNumber'
+
+31-05-2024T01:34:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_SSN_customer.ssn"), ssnValid): Text '725-64-3512' is set on object 'Object Repository/Page_ParaBank-Register/input_SSN_customer.ssn'
+
+31-05-2024T01:34:50 - [MESSAGE][PASSED] - Text '725-64-3512' is set on object 'Object Repository/Page_ParaBank-Register/input_SSN_customer.ssn'
+
+31-05-2024T01:34:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Username_customer.username"), usernameAccount): Text 'courtney.cronin' is set on object 'Object Repository/Page_ParaBank-Register/input_Username_customer.username'
+
+31-05-2024T01:34:50 - [MESSAGE][PASSED] - Text 'courtney.cronin' is set on object 'Object Repository/Page_ParaBank-Register/input_Username_customer.username'
+
+31-05-2024T01:34:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Password_customer.password"), passwordAccount): Text '4496al1g79n04k1' is set on object 'Object Repository/Page_ParaBank-Register/input_Password_customer.password'
+
+31-05-2024T01:34:51 - [MESSAGE][PASSED] - Text '4496al1g79n04k1' is set on object 'Object Repository/Page_ParaBank-Register/input_Password_customer.password'
+
+31-05-2024T01:34:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_ParaBank-Register/input_Confirm_repeatedPassword"), passwordAccount): Text '4496al1g79n04k1' is set on object 'Object Repository/Page_ParaBank-Register/input_Confirm_repeatedPassword'
+
+31-05-2024T01:34:52 - [MESSAGE][PASSED] - Text '4496al1g79n04k1' is set on object 'Object Repository/Page_ParaBank-Register/input_Confirm_repeatedPassword'
+
+31-05-2024T01:34:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ParaBank-Register/input_Confirm_button")): Object: 'Object Repository/Page_ParaBank-Register/input_Confirm_button' is clicked on
+
+31-05-2024T01:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ParaBank-Register/input_Confirm_button' is clicked on
+
+31-05-2024T01:34:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_ParaBank-Register/span_Alert", ["forms":"address.street"]), "Address is required."): Actual text and expected text of test object 'Object Repository/Page_ParaBank-Register/span_Alert' are matched.
+
+31-05-2024T01:34:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_ParaBank-Register/span_Alert' are matched.
+
+31-05-2024T01:34:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-05-2024T01:34:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[31-05-2024T01:33:55 - [TEST_SUITE][FAILED] - TS_001_Login: Test Cases/Register/TC_001_Register New User FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_ParaBank-Customer-Logged-In/h1_Welcome' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at TC_001_Register New User.run(TC_001_Register New User:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1717094029280.run(TempTestSuite1717094029280.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Signing up is easy!' and expected text 'Welcome denis.turcotte' of test object 'Object Repository/Page_ParaBank-Customer-Logged-In/h1_Welcome' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[31-05-2024T01:33:55 - [TEST_SUITE][FAILED] - TS_001_Login: Test Cases/Register/TC_001_Register New User FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_ParaBank-Customer-Logged-In/h1_Welcome' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at TC_001_Register New User.run(TC_001_Register New User:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1717094029280.run(TempTestSuite1717094029280.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Signing up is easy!' and expected text 'Welcome denis.turcotte' of test object 'Object Repository/Page_ParaBank-Customer-Logged-In/h1_Welcome' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>
