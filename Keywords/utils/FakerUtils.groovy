@@ -95,7 +95,11 @@ public class FakerUtils {
 	 * @return A random username
 	 */
 	public static String getUsername() {
-		return faker.name().username()
+		String firstName = getFirstName().toLowerCase()
+		String lastName = getLastName().toLowerCase()
+		String setUsername = firstName + '_' + lastName
+		return setUsername
+//		return faker.name().username()
 	}
 
 	/**
