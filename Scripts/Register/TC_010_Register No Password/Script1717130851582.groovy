@@ -22,10 +22,9 @@ String ssnValid = getSSNValid()
 String usernameAccount = getUsername()
 
 //String passwordAccount = getPassword()
-WebUI.openBrowser(GlobalVariable.url)
-
-WebUI.maximizeWindow()
-
+//WebUI.openBrowser(GlobalVariable.url)
+//
+//WebUI.maximizeWindow()
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_ParaBank-Welcome/p_Experience the difference'), 1)
 
 WebUI.click(findTestObject('Object Repository/Page_ParaBank-Welcome/a_Register'))
@@ -65,4 +64,4 @@ WebUI.click(findTestObject('Object Repository/Page_ParaBank-Register/input_Confi
 WebUI.verifyElementText(findTestObject('Object Repository/Page_ParaBank-Register/span_Alert', [('forms') : 'password']), 
     'Password is required.')
 
-WebUI.closeBrowser()
+WebUI.takeFullPageScreenshotAsCheckpoint('passwordRequired')

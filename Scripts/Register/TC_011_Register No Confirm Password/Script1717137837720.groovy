@@ -23,9 +23,9 @@ String usernameAccount = getUsername()
 
 String passwordAccount = getPassword()
 
-WebUI.openBrowser(GlobalVariable.url)
-
-WebUI.maximizeWindow()
+//WebUI.openBrowser(GlobalVariable.url)
+//
+//WebUI.maximizeWindow()
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_ParaBank-Welcome/p_Experience the difference'), 1)
 
@@ -65,4 +65,6 @@ WebUI.click(findTestObject('Object Repository/Page_ParaBank-Register/input_Confi
  */
 WebUI.verifyElementText(findTestObject('Object Repository/Page_ParaBank-Register/span_Alert_repeated_pass'), 'Password confirmation is required.')
 
-WebUI.closeBrowser()
+WebUI.takeFullPageScreenshotAsCheckpoint('repeatPasswordRequired')
+
+//WebUI.closeBrowser()
