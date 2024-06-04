@@ -60,4 +60,9 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_ParaBank-Customer
 WebUI.verifyElementText(findTestObject('Object Repository/Page_ParaBank-Customer-Logged-In/p_Welcome'), (('Welcome ' + firstName) + 
     ' ') + lastName)
 
-WebUI.closeBrowser()
+WebUI.takeFullPageScreenshotAsCheckpoint('loginSuccess')
+
+WebUI.click(findTestObject('Object Repository/Page_ParaBank-Customer-Logged-In/a_logout'))
+
+//WebUI.closeBrowser()
+

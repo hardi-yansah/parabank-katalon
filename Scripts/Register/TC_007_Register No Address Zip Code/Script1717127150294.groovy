@@ -14,7 +14,6 @@ String addressCity = getAddressCity()
 String addressState = getAddressState()
 
 //String addressZip = getAddressZipCode()
-
 String phoneNumber = getPhone()
 
 String ssnValid = getSSNValid()
@@ -23,10 +22,9 @@ String usernameAccount = getUsername()
 
 String passwordAccount = getPassword()
 
-WebUI.openBrowser(GlobalVariable.url)
-
-WebUI.maximizeWindow()
-
+//WebUI.openBrowser(GlobalVariable.url)
+//
+//WebUI.maximizeWindow()
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_ParaBank-Welcome/p_Experience the difference'), 1)
 
 WebUI.click(findTestObject('Object Repository/Page_ParaBank-Welcome/a_Register'))
@@ -42,7 +40,6 @@ WebUI.setText(findTestObject('Object Repository/Page_ParaBank-Register/input_Cit
 WebUI.setText(findTestObject('Object Repository/Page_ParaBank-Register/input_State_customer.address.state'), addressState)
 
 //WebUI.setText(findTestObject('Object Repository/Page_ParaBank-Register/input_Zip Code_customer.address.zipCode'), addressZip)
-
 WebUI.setText(findTestObject('Object Repository/Page_ParaBank-Register/input_Phone_customer.phoneNumber'), phoneNumber)
 
 WebUI.setText(findTestObject('Object Repository/Page_ParaBank-Register/input_SSN_customer.ssn'), ssnValid)
@@ -64,8 +61,7 @@ WebUI.click(findTestObject('Object Repository/Page_ParaBank-Register/input_Confi
  * Repository/Page_ParaBank-Customer-Logged-In/p_Welcome'), (('Welcome ' +
  * firstName) + ' ') + lastName)
  */
+WebUI.verifyElementText(findTestObject('Object Repository/Page_ParaBank-Register/span_Alert', [('forms') : 'address.zipCode']), 
+    'Zip Code is required.')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_ParaBank-Register/span_Alert', [('forms') : 'address.zipCode']),
-	'Zip Code is required.')
-
-WebUI.closeBrowser()
+WebUI.takeFullPageScreenshotAsCheckpoint('stateRequired')
