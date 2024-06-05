@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_The username and password could not be verified</name>
+   <name>p_alert</name>
    <tag></tag>
    <elementGuidId>6ee3092f-8c14-441d-be4d-3fb3d2394fbd</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.error</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='rightPanel']/p</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//p[(text() = 'The username and password could not be verified.' or . = 'The username and password could not be verified.')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>p.error</value>
+         <value>.error</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,12 +28,12 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>95e30561-dcb1-4163-ae09-8d2eb49072ad</webElementGuid>
+      <webElementGuid>f76597fb-aa0e-44f1-bd9e-a2b4c36f5fd5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,15 +41,15 @@
       <name>class</name>
       <type>Main</type>
       <value>error</value>
-      <webElementGuid>ed87fbf5-5939-4ec6-ad6c-73b25a070dcc</webElementGuid>
+      <webElementGuid>81546dc2-5255-49f1-8cc9-800e4bfff652</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>The username and password could not be verified.</value>
-      <webElementGuid>fe65b9b7-0325-4319-a4a4-cb06ef4b0b24</webElementGuid>
+      <webElementGuid>3d9d060a-e5b0-4b12-b81b-7509c361cc34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;rightPanel&quot;)/p[@class=&quot;error&quot;]</value>
-      <webElementGuid>e3dacdf5-f6cb-4c62-ac27-19c713435c12</webElementGuid>
+      <webElementGuid>cc4a8947-3a6e-4088-ba9b-1be0d28430c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>.error</value>
+      <webElementGuid>50723e5a-c306-416f-9e3e-efa772e40b93</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='rightPanel']/p</value>
-      <webElementGuid>e3372724-0617-4e28-9a14-ec578463f0dd</webElementGuid>
+      <webElementGuid>20db7e50-d21a-44d9-a189-7fdd15e85190</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Error!'])[1]/following::p[1]</value>
-      <webElementGuid>d8df48c7-d667-4a50-8b3e-20c56ce2afc5</webElementGuid>
+      <webElementGuid>44a65411-9bd5-4817-9e05-d78be1cc94c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Register'])[1]/following::p[1]</value>
-      <webElementGuid>2aa7e2aa-b724-4456-8968-8621dba86574</webElementGuid>
+      <webElementGuid>52fd7ee7-3082-4b95-945b-a5748ca1a33f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::p[1]</value>
-      <webElementGuid>8686358a-6058-4c36-80a8-239e453ff401</webElementGuid>
+      <webElementGuid>bb08ac1b-305f-4bd4-9e1d-5d5a12d331eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='The username and password could not be verified.']/parent::*</value>
-      <webElementGuid>69a3e3e2-4a55-44c9-b905-ccacee362470</webElementGuid>
+      <webElementGuid>1d9b87fb-41b6-4a96-95da-ec5f1d065fac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/p</value>
-      <webElementGuid>e46ea10c-35f6-42ae-ac33-3c1d01768650</webElementGuid>
+      <webElementGuid>d4a7a9d8-e6b4-452e-835d-cbaa762d7ac1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'The username and password could not be verified.' or . = 'The username and password could not be verified.')]</value>
-      <webElementGuid>66ed9941-e377-430c-8744-d10e6eb3e3ef</webElementGuid>
+      <webElementGuid>5930c4be-da69-4fb8-8d39-d8782bbdc942</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
