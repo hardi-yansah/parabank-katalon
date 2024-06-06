@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='leftPanel']/p</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='contact'])[1]/following::p[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>p.smallText</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
