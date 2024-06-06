@@ -9,4 +9,9 @@
       <initValue>'https://parabank.parasoft.com/parabank/index.htm'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://jsonplaceholder.typicode.com'</initValue>
+      <name>url_api</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

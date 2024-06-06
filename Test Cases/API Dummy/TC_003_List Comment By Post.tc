@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_003_List Comment By Post</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>043cd5c0-deb2-4f7e-b98b-e7cfba8ac800</testCaseGuid>
+</TestCaseEntity>
