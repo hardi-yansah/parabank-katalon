@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_003_Register No Last Name</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>4fc2add5-783d-4a6b-a23a-4c8c371af689</testCaseGuid>
-</TestCaseEntity>

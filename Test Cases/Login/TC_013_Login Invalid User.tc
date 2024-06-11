@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_013_Login Invalid User</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>2235f489-c548-4293-8fe5-f7778b6dfe7f</testCaseGuid>
-</TestCaseEntity>

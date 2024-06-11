@@ -12,31 +12,31 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>f2ef8cd6-bc98-4104-b34a-b48f1b0da951</testSuiteGuid>
    <testCaseLink>
-      <guid>c147a8b1-f02d-40de-8ce4-64de5d4a63eb</guid>
+      <guid>b1717702-c519-45bf-a331-0276b3277d57</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API Dummy/TC_001_Posts</testCaseId>
+      <testCaseId>Test Cases/API Dummy/List Comment By Post</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>72e32ea4-7a33-48ff-9817-1995748686c5</guid>
+      <guid>3845729a-a90a-47bb-bd37-451e2b594d8c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API Dummy/TC_002_View Detail Post</testCaseId>
+      <testCaseId>Test Cases/API Dummy/Posts</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>76137301-32f9-41b9-8581-5c7af7cf7733</guid>
+      <guid>09ca2361-dc56-492f-94f5-a7fe4d0ef768</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API Dummy/TC_003_List Comment By Post</testCaseId>
+      <testCaseId>Test Cases/API Dummy/View Detail Comment By Post</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d759c000-975e-4506-848b-a5851625c2c7</guid>
+      <guid>11d1a7b3-26a1-48a7-ba66-57c88a63f5ab</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API Dummy/TC_004_View Detail Comment By Post</testCaseId>
+      <testCaseId>Test Cases/API Dummy/View Detail Post</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

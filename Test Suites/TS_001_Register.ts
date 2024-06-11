@@ -12,80 +12,80 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>511c1cd4-cf30-4a1d-b9f8-6a4ceeba65c3</testSuiteGuid>
    <testCaseLink>
-      <guid>8c0b3f07-444c-4c9e-8910-f54b0a004f3a</guid>
+      <guid>aa2bb2c6-6389-49cb-8ef4-a924d9537d1a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Register/TC_001_Register New User</testCaseId>
+      <testCaseId>Test Cases/Register/Register New User</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>86f0fed2-16a4-4a0c-9329-63553f95b08e</guid>
+      <guid>ea6b8199-68b0-48c8-ad1e-901f8763c17f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Register/TC_002_Register No First Name</testCaseId>
+      <testCaseId>Test Cases/Register/Register No Address City</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>bb767348-d7c9-47ca-a3a6-9c3b83d3f3b6</guid>
+      <guid>a6ad92c6-7096-4934-bfc4-484c515125ae</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Register/TC_003_Register No Last Name</testCaseId>
+      <testCaseId>Test Cases/Register/Register No Address State</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c6bfcc63-bb89-4daf-8af3-cfeb4b9aa79f</guid>
+      <guid>a41ee984-a5ed-4b7f-9a4c-064c240fb0b6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Register/TC_004_Register No Address Street</testCaseId>
+      <testCaseId>Test Cases/Register/Register No Address Street</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>023b636f-e993-493b-929e-4c0fa85d416a</guid>
+      <guid>5b92f19a-00d4-4d1c-be80-2544889ed7ac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Register/TC_005_Register No Address City</testCaseId>
+      <testCaseId>Test Cases/Register/Register No Address Zip Code</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c5484313-b567-447d-820a-ec9e6557a1a2</guid>
+      <guid>2359f930-54c8-468a-a155-25b0c46ce777</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Register/TC_006_Register No Address State</testCaseId>
+      <testCaseId>Test Cases/Register/Register No Confirm Password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>6433ac04-afff-48d6-8484-0355316637cc</guid>
+      <guid>df14d045-c1b1-4669-bb83-f99206556f9b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Register/TC_007_Register No Address Zip Code</testCaseId>
+      <testCaseId>Test Cases/Register/Register No First Name</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b6ecfc77-bfc4-4217-a3c6-f5f64d3d1912</guid>
+      <guid>5bd20a27-cc0c-44e7-935f-03fcb2dfd0e8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Register/TC_008_Register No SSN</testCaseId>
+      <testCaseId>Test Cases/Register/Register No Last Name</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>543d4183-2b07-4967-b121-ea0931ef0191</guid>
+      <guid>47362578-d739-4c55-bf0b-9d5736b222eb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Register/TC_009_Register No Username</testCaseId>
+      <testCaseId>Test Cases/Register/Register No Password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f9a6810b-5fe0-4965-ad20-9f9cf719b2d3</guid>
+      <guid>35748300-85f4-4870-aaf7-56cf04a5eec7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Register/TC_010_Register No Password</testCaseId>
+      <testCaseId>Test Cases/Register/Register No SSN</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>81917293-df63-4901-82b1-a4a812101207</guid>
+      <guid>571d709d-3643-44ad-add0-c7dd18665cab</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Register/TC_011_Register No Confirm Password</testCaseId>
+      <testCaseId>Test Cases/Register/Register No Username</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

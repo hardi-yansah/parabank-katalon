@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_004_Register No Address Street</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>2cb67b26-fb85-451c-be53-9fc01da6a4de</testCaseGuid>
-</TestCaseEntity>
