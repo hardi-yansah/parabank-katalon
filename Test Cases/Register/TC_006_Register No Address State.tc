@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_006_Register No Address State</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>2ad5ba4f-5180-4e11-a618-0a76cdf1c4e7</testCaseGuid>
-</TestCaseEntity>

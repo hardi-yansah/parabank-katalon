@@ -6,15 +6,19 @@
    <elementGuidId>90ed778f-da14-43a3-91ea-44be38ec1a44</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>p.smallText</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='contact'])[1]/following::p[1]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>p.smallText</value>
+         <key>BASIC</key>
+         <value>//p[@class = 'smallText']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -24,28 +28,28 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>9bf28012-e9e6-4ead-89af-639b03a5c89e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>smallText</value>
-      <webElementGuid>7a72feed-2b9e-4271-be7d-cb744c2ba335</webElementGuid>
+      <webElementGuid>408d49c3-b658-4f9d-b9db-8b8eddaa6612</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>smallText</value>
+      <webElementGuid>be2b4a3e-afd7-4461-8532-74e706cb628b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Welcome First Name Last Name</value>
-      <webElementGuid>35b6b94d-0363-45b4-98c6-83ae5d05df7e</webElementGuid>
+      <webElementGuid>bc497cb4-d7d6-4161-ba44-d25b068d3d15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;leftPanel&quot;)/p[@class=&quot;smallText&quot;]</value>
-      <webElementGuid>af862416-3f54-4c4a-8d74-d6f7b7ca0db2</webElementGuid>
+      <webElementGuid>8c86809b-e1a4-424b-a97d-917f13f7ce41</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='leftPanel']/p</value>
-      <webElementGuid>9c67bf93-a8bf-4434-b2f0-c26219ffa469</webElementGuid>
+      <webElementGuid>09b8c815-7dc8-4b9f-b3d7-02c1a3acc942</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='contact'])[1]/following::p[1]</value>
-      <webElementGuid>9d1d057d-72f9-410c-a62b-7dfa804a6caa</webElementGuid>
+      <webElementGuid>6ce7b532-641c-457a-80a5-6e2194531211</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='about'])[1]/following::p[1]</value>
-      <webElementGuid>cbbea199-b583-4bd3-9716-c5d638a7a9a4</webElementGuid>
+      <webElementGuid>8fd9f849-e619-4e9f-be22-6fc4720589e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Account Services'])[1]/preceding::p[1]</value>
-      <webElementGuid>24e5a3e5-23ef-4a00-b5a5-6732300c3b02</webElementGuid>
+      <webElementGuid>88b5591a-bd79-4dfa-b028-81148ad88043</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='First Name Last Name']/parent::*</value>
-      <webElementGuid>d61b7d69-f9e9-4dd4-a8e6-25cdf0ce0140</webElementGuid>
+      <webElementGuid>f6c72687-9a2d-43cd-99e1-f1b042298169</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/p</value>
-      <webElementGuid>4925b1df-37d5-4737-8c39-b9f8c148b250</webElementGuid>
+      <webElementGuid>eb8527d9-7708-4ed1-89d2-247ffc2d0c09</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'Welcome First Name Last Name' or . = 'Welcome First Name Last Name')]</value>
-      <webElementGuid>a42eadcb-ad51-4e17-9cb6-22101a55908f</webElementGuid>
+      <webElementGuid>b62866ba-3d8c-4fd4-a446-eae01feddb8b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

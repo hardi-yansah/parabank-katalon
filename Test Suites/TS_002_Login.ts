@@ -12,24 +12,24 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>c4629556-bc70-4821-8b70-d34e0dc55d3e</testSuiteGuid>
    <testCaseLink>
-      <guid>190d2297-231d-4e46-9c91-349cda22eaf3</guid>
+      <guid>2fb83d23-888e-4a53-b2b0-b0c73dd4456c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/TC_012_Login Valid User</testCaseId>
+      <testCaseId>Test Cases/Login/Login Blank Credentials</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>1ab3a442-0a78-4ac1-b6d2-4f14efc259fd</guid>
+      <guid>ff9be834-a60c-49ab-a91e-551f7e894cdf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/TC_013_Login Invalid User</testCaseId>
+      <testCaseId>Test Cases/Login/Login Invalid User</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>6ad825d3-b813-436f-a7ea-04bc3911acc7</guid>
+      <guid>4a5000e3-db11-4a53-9fe1-81e3ff87d348</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/TC_014_Login Blank Credentials</testCaseId>
+      <testCaseId>Test Cases/Login/Login Valid User</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
